@@ -4,7 +4,7 @@
 
 namespace ConceptsPOO
 {
-    public abstract class Employee
+    public abstract class Employee : IPay
     {
         // prop para crear propiedad
         public int Id { get; set; }
